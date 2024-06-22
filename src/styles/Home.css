@@ -1,0 +1,119 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family:cursive;
+    color: #09090a;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:white;
+    color: #080808;
+  }
+ 
+  .about h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #39330d;
+    height: 50px;
+  }
+  
+  .about .prompt {
+    width: 40%;
+    font-size: 30px;
+  }
+  .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: #39330d;
+    
+  }
+  .styled-break {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, #ccc, #000, #ccc);
+    margin: 40px 0;
+    position: relative;
+  }
+  
+  .styled-break::before {
+    content: '❖❖❖';
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 0 10px;
+    font-size: 24px;
+    color: #000;
+  }
+  
+  img{
+    height: 250px;
+    width: 250px;
+  }
+  .skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ 
+  }
+  
+  .skills h1 {
+    color: #040a47;
+    margin-bottom: 1px;
+  }
+  .skills h2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .skills .list {
+    list-style: none;
+    width: 60%;
+  }
+  
+  .list span {
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 20px;
+      padding-bottom: 0px;
+    }
+  
+    .about .prompt {
+      margin-top: 0px;
+      font-size: 20px;
+      width: 80%;
+    }
+   
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+    img{
+      margin-top: 70px;
+    }
+    .skills h2 {
+      font-size: 30px;
+    }
+    .styled-break {
+      
+      margin: 100px 0 0 0;
+    }
+  }
+ 
+  

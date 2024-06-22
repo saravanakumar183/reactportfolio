@@ -1,0 +1,79 @@
+.projects-wrapper {
+    padding: 20px;
+
+  }
+  
+  .projects-section, .papers-section {
+    margin-bottom: 40px;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    height: 300px;
+  }
+  .paper-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    height: 310px;
+  }
+  .cre-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    height: 310px;
+  }
+  .project-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .project-title {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+.project-description{
+    font-family: cursive;
+    padding-bottom: 10px;
+}  
+
+.project-button{
+    
+    width: 60px;
+    padding-top: 3px;
+    text-align: center;
+    background-color: rgb(224, 235, 11);
+}
+@media only screen and (max-width: 600px) {
+  .projects-container {
+    height: 1200px;
+  }
+  .paper-container {
+    height: 1850px;
+  }
+  .cre-container{
+    height: 1400px;
+  }
+}
